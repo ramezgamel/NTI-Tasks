@@ -1,0 +1,11 @@
+{{>header}}
+{{>navbar}}
+<div class="p-3 alert alert-danger">
+  {{#if error}} 
+  <p class="mb-4">{{error}}</p>
+  {{else}}
+  <p class="mb-4">Page not Found</p>
+  {{/if}}
+  <a href="/" class="btn btn-primary">Back Home</a>
+</div>
+{{>footer}}

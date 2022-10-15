@@ -1,0 +1,15 @@
+{{>header}}
+{{>navbar}}
+
+<form method="post">
+    <input type="text" class="form-control" placeholder="Title" name="title">
+    <input type="text" class="form-control my-3" placeholder="Content" name="content">
+    <input type="text" class="form-control" placeholder="dueDate" name="dueDate">
+    <div class="my-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="status">
+        <label class="form-check-label" for="exampleCheck1">Status</label>
+    </div>
+    <button class="btn btn-success my-3">Add</button>
+</form>
+
+{{>footer}}
